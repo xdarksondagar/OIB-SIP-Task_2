@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.7;
+  background-color: #1b1a17;
+  color: #e6d5b8;
+}
+article {
+  padding: 2rem;
+}
+figure {
+  background-image: linear-gradient(-20deg, #619a78, #d5d5df, #f0bb41);
+  color: #1b1a17;
+  display: flex;
+  padding-top: 2rem;
+  align-items: center;
+  border-radius: 10rem 0 10rem 0;
+  margin-bottom: 5rem;
+}
+figure img {
+  width: 40%;
+}
+figure figcaption {
+  margin-left: 10%;
+}
+figure h1 {
+  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+figure h2 {
+  font-size: 2rem;
+}
+figure p {
+  font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+.text {
+  width: 60%;
+}
+.text p::before {
+  content: "";
+  width: 0.7em;
+  height: 0.7em;
+  background-color: #d5d5df;
+  display: inline-block;
+  margin-right: 0.7em;
+  transform: rotate(45deg);
+}
+.text p {
+  font-size: 1.2rem;
+  word-spacing: 4px;
+}
+
+.photo_2 {
+  width: 40%;
+  object-fit: contain;
+}
+p + p {
+  margin-top: 1em;
+}
